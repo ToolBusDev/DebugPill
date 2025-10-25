@@ -31,7 +31,7 @@ Blade example:
         <span class="sub-text">Keep going!</span>
     </div>
 @endif
-
+```
 
 ## Screenshot  
 ![DebugPill in action](https://github.com/ToolBusDev/DebugPill/blob/main/img/screenshot.png)
