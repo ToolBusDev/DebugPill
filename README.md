@@ -15,7 +15,7 @@ When in doubt, ask AI. That's how DebugPill was born.
 - Debug on → a tiny capsule badge floats on the page, impossible to miss.  
 - Prod on → set your framework flag and the badge simply never loads.  
 
-Pure HTML + CSS, < 1 kB. Drop it in, sleep better.
+Pure HTML + CSS, ~1 kB. Drop it in, sleep better.
 
 ## Quick start  
 Use your framework's debug flag to decide whether to render it.  
@@ -23,7 +23,7 @@ Blade example:
 
 ```blade
 @if (config('app.debug'))
-    <link rel="stylesheet" href="/css/debug-badge.css">   {{-- I like my CSS separate --}}
+    <link rel="stylesheet" href="/css/debug-pill-high-contrast.css">   {{-- I like my CSS separate --}}
     <div id="debug-badge">
         <span class="icon">🧙</span>
         <span class="main-text">Debug Mode</span>
