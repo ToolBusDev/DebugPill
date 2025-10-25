@@ -22,6 +22,7 @@ Use your framework's debug flag to decide whether to render it.
 Blade example:
 
 ```blade
+{{-- app.blade.php --}}
 @if (config('app.debug'))
     <link rel="stylesheet" href="/css/debug-pill-high-contrast.css">   {{-- I like my CSS separate --}}
     <div id="debug-badge">
