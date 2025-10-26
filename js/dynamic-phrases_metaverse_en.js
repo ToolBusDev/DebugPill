@@ -1,5 +1,5 @@
 /*
- * debug-pill_metaverse.js - Part of DebugPill
+ * dynamic-phrases_metaverse_en.js - Part of DebugPill
  * Diverse phrases for metaverse debugging—even in virtual spaces, every hero has a trusty sidekick.
  * 
  * Repository: https://github.com/ToolBusDev/DebugPill
@@ -537,4 +537,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (iconEl) iconEl.textContent = emoji;
   if (textEl) textEl.textContent = text;
+
 });
