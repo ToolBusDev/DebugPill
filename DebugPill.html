@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DebugPill - Debug Mode Indicator</title>
-    
+
     <!-- Default style (light pill design) -->
-    <link rel="stylesheet" href="debug-pill-default.css">
-    
+    <link rel="stylesheet" href="./css/debug-pill-default.css">
+
     <!-- Uncomment below to use high-contrast style -->
-    <!-- <link rel="stylesheet" href="debug-pill-high-contrast.css"> -->
+    <!-- <link rel="stylesheet" href="./css/debug-pill-high-contrast.css"> -->
 </head>
+
 <body>
     <!-- DebugPill Core Element -->
     <div id="debug-badge">
@@ -21,7 +23,8 @@
     </div>
 
     <!-- Usage Instructions (Centered) -->
-    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: sans-serif; text-align: center; max-width: 560px; padding: 0 20px;">
+    <div
+        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: sans-serif; text-align: center; max-width: 560px; padding: 0 20px;">
         <h3>DebugPill | How to Use</h3>
         <ol style="text-align: left; display: inline-block; margin: 0 auto;">
             <li>Pick a CSS file (default or high-contrast) and add it to your project</li>
@@ -29,5 +32,13 @@
             <li>Control visibility using your framework's debug flag</li>
         </ol>
     </div>
+
+    <!-- Bring in a dynamic phrase pool and give debug a dash of joy. -->
+    <script src="./js/debug-pill_en.js"></script>
+    <!-- <script src="./js/debug-pill_zh_cn.js"></script> -->
+
+    <!-- This metaverse version is worth a try～ -->
+    <!-- <script src="./js/debug-pill_metaverse_en.js"></script> -->
 </body>
+
 </html>
