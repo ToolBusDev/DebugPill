@@ -37,10 +37,10 @@ Blade example:
 ```
 
 ## Screenshot  
-![DebugPill (Default Static Version)](https://github.com/ToolBusDev/DebugPill/blob/main/img/screenshot.png)  
+![DebugPill (Default Static Version)](https://github.com/ToolBusDev/DebugPill/blob/main/img/debugpill-default-static.png.png)  
 *Badge docked at the bottom-center while debugging (default static phrase: "Keep going!")*  
 
-![DebugPill (Dynamic Phrases Version)](https://github.com/ToolBusDev/DebugPill/blob/main/img/screenshot-metaverse_en.js.png)  
+![DebugPill (Dynamic Phrases Version)](https://github.com/ToolBusDev/DebugPill/blob/main/img/debugpill-highcontrast-metaverse-en.png)  
 *DebugPill with JS dynamic phrase library enabled—showing a random phrase and icon on refresh*
 
 
