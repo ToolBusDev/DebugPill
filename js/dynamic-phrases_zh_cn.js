@@ -1,5 +1,5 @@
 /*
- * debug-pill_zh.js - DebugPill 组件
+ * dynamic-phrases_zh_cn.js - DebugPill 组件
  * 多样化短语支持，堪称码农伴侣
  * 
  * 仓库地址：https://github.com/ToolBusDev/DebugPill 
@@ -152,4 +152,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const textElement = badge.querySelector('.sub-text');
   if (textElement) textElement.textContent = text;
+
 });
