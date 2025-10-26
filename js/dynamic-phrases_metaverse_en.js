@@ -386,7 +386,7 @@ const batman = [
   { emoji: '📊', text: 'Analyze, strategize, fix' },
   { emoji: '⚔️', text: 'Fight with precision, not force' },
   { emoji: '🔄', text: 'Plan for every rollback' },
-  { emoji: '🩸', text: 'Gotham’s code is worth bleeding for' },
+  { emoji: '🦇', text: 'Gotham’s code is worth bleeding for' },
   { emoji: '🔥', text: 'Burn the legacy bugs' },
   { emoji: '🧠', text: 'Genius behind the mask' },
   { emoji: '🚀', text: 'Deploy without a sound' },
