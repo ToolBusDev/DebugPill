@@ -24,13 +24,14 @@ Blade example:
 ```blade
 {{-- app.blade.php --}}
 @if (config('app.debug'))
-    <link rel="stylesheet" href="/css/debug-pill-high-contrast.css">   {{-- I like my CSS separate --}}
+    <link rel="stylesheet" href="/css/debug-pill-high-contrast.css">
     <div id="debug-badge">
         <span class="icon">🧙</span>
         <span class="main-text">Debug Mode</span>
         <span class="separator">|</span>
         <span class="sub-text">Keep going!</span>
     </div>
+    <!-- <script src="/js/debug-pill_en.js"></script> -->
 @endif
 ```
 
