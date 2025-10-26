@@ -32,7 +32,7 @@ Blade example:
         <span class="separator">|</span>
         <span class="sub-text">Keep going!</span>
     </div>
-    <!-- <script src="/js/debug-pill_en.js"></script> -->
+    <!-- <script src="/js/dynamic-phrases_en.js"></script> -->
 @endif
 ```
 
