@@ -41,7 +41,7 @@ Blade example:
 *Badge docked at the bottom-center while debugging (default static phrase: "Keep going!")*  
 
 ![DebugPill (Dynamic Phrases Version)](https://github.com/ToolBusDev/DebugPill/blob/main/img/screenshot-metaverse_en.js.png)  
-*DebugPill with JS dynamic phrase library enabled—showing a random phrase ("Gotham’s code is worth bleeding for") and icon (🦇) on refresh*
+*DebugPill with JS dynamic phrase library enabled—showing a random phrase and icon on refresh*
 
 
 ## License
