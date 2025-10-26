@@ -15,7 +15,7 @@ When in doubt, ask AI. That's how DebugPill was born.
 - Debug on → a tiny capsule badge floats on the page, impossible to miss.  
 - Prod on → set your framework flag and the badge simply never loads.  
 
-Pure HTML + CSS, ~1 kB. Drop it in, sleep better.
+Pure HTML + CSS, ~1 kB. Drop it in, sleep better.If you don't mind a slight increase in size, feel free to enable the JS dynamic phrase library and experience the little surprise with each refresh.
 
 ## Quick start  
 Use your framework's debug flag to decide whether to render it.  
@@ -35,8 +35,11 @@ Blade example:
 ```
 
 ## Screenshot  
-![DebugPill in action](https://github.com/ToolBusDev/DebugPill/blob/main/img/screenshot.png)
-*Badge docked at the bottom-center while debugging*
+![DebugPill (Default Static Version)](https://github.com/ToolBusDev/DebugPill/blob/main/img/screenshot.png)  
+*Badge docked at the bottom-center while debugging (default static phrase: "Keep going!")*  
+
+![DebugPill (Dynamic Phrases Version)](https://github.com/ToolBusDev/DebugPill/blob/main/img/screenshot-metaverse_en.js.png)  
+*DebugPill with JS dynamic phrase library enabled—showing a random phrase ("Gotham’s code is worth bleeding for") and icon (🦇) on refresh*
 
 
 ## License
