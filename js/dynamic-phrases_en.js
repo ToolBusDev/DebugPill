@@ -1,5 +1,5 @@
 /*
- * debug-pill_en.js - Part of DebugPill
+ * dynamic-phrases_en.js - Part of DebugPill
  * Diverse phrases that more than earn the title "developer's sidekick".
  * 
  * Repository: https://github.com/ToolBusDev/DebugPill 
@@ -153,4 +153,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const textElement = badge.querySelector('.sub-text');
     if (textElement) textElement.textContent = text;
+
 });
