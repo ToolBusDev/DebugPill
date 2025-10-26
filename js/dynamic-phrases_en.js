@@ -3,7 +3,7 @@
  * Diverse phrases that more than earn the title "developer's sidekick".
  * 
  * Repository: https://github.com/ToolBusDev/DebugPill 
- * Copyright (c) 2025 ToolBusDev
+ * Copyright (c) 2025 ToolBusDev · v1.0.1
  * Licensed under the MIT License (see LICENSE file for details)
  */
 
@@ -144,14 +144,14 @@ function randomMetaPhrase() {
 
 /* ---------- Inject into Debug Badge ---------- */
 document.addEventListener('DOMContentLoaded', () => {
-    const badge = document.getElementById('debug-badge');
-    if (!badge) return;
+    const debugPill = document.getElementById('debug-pill');
+    if (!debugPill) return;
 
     const { emoji, text } = randomMetaPhrase();
-    const iconElement = badge.querySelector('.icon');
+    const iconElement = debugPill.querySelector('.icon');
     if (iconElement) iconElement.textContent = emoji;
 
-    const textElement = badge.querySelector('.sub-text');
+    const textElement = debugPill.querySelector('.sub-text');
     if (textElement) textElement.textContent = text;
 
 });

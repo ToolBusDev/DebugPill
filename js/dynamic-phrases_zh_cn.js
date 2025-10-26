@@ -3,7 +3,7 @@
  * 多样化短语支持，堪称码农伴侣
  * 
  * 仓库地址：https://github.com/ToolBusDev/DebugPill 
- * 版权所有 (c) 2025 ToolBusDev
+ * 版权所有 (c) 2025 ToolBusDev · v1.0.1
  * 基于 MIT 许可证发布（详见 LICENSE 文件）
  */
 
@@ -143,14 +143,14 @@ function randomMetaPhrase() {
 
 /* ---------- Inject into Debug Badge ---------- */
 document.addEventListener('DOMContentLoaded', () => {
-  const badge = document.getElementById('debug-badge');
-  if (!badge) return;
+  const debugPill = document.getElementById('debug-pill');
+  if (!debugPill) return;
 
   const { emoji, text } = randomMetaPhrase();
-  const iconElement = badge.querySelector('.icon');
+  const iconElement = debugPill.querySelector('.icon');
   if (iconElement) iconElement.textContent = emoji;
 
-  const textElement = badge.querySelector('.sub-text');
+  const textElement = debugPill.querySelector('.sub-text');
   if (textElement) textElement.textContent = text;
 
 });

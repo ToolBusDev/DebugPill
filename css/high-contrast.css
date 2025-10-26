@@ -1,0 +1,43 @@
+/*!
+ * high-contrast.css for DebugPill
+ * Copyright (c) 2025 ToolBusDev  
+ * MIT License - https://github.com/ToolBusDev/DebugPill/blob/main/LICENSE  
+ */
+
+#debug-pill {
+  position: fixed !important;
+  bottom: 20px !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  max-width: 260px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background: #e2e8f0 !important;
+  border-radius: 999px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#debug-pill .icon {
+  font-size: 16px;
+}
+
+#debug-pill .main-text {
+  font-weight: 600;
+  font-size: 14px;
+  color: #020617 !important;
+}
+
+#debug-pill .separator {
+  font-size: 11px;
+  color: #64748b !important;
+}
+
+#debug-pill .sub-text {
+  font-size: 11px;
+  color: #273444 !important;
+}
