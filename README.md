@@ -15,7 +15,8 @@ When in doubt, ask AI. That's how DebugPill was born.
 - Debug on → a tiny capsule badge floats on the page, impossible to miss.  
 - Prod on → set your framework flag and the badge simply never loads.  
 
-Pure HTML + CSS, ~1 kB. Drop it in, sleep better.If you don't mind a slight increase in size, feel free to enable the JS dynamic phrase library and experience the little surprise with each refresh.
+Pure HTML + CSS, ~1 kB. Drop it in, sleep better.
+If you don't mind a slight increase in size, feel free to enable the JS dynamic phrase library and experience the little surprise with each refresh.
 
 ## Quick start  
 Use your framework's debug flag to decide whether to render it.  
