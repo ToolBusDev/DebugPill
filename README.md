@@ -25,8 +25,8 @@ Blade example:
 ```blade
 {{-- app.blade.php --}}
 @if (config('app.debug'))
-    <link rel="stylesheet" href="/css/debug-pill-high-contrast.css">
-    <div id="debug-badge">
+    <link rel="stylesheet" href="/css/high-contrast.css">
+    <div id="debug-pill">
         <span class="icon">🧙</span>
         <span class="main-text">Debug Mode</span>
         <span class="separator">|</span>
